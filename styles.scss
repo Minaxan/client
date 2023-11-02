@@ -40,11 +40,10 @@
     }
 
     .introduce {
-        width: 100%;
-        height: 810px;
-        background-image: url(/img/showcase-bg.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        .img__introduceBg {
+            width: 100%;
+            height: 800px;
+        }
 
         .introduce__content {
             padding-top: 120px;
@@ -82,29 +81,29 @@
         .introduce__product {
             padding-top: 120px;
 
-            .product__man {
-                background-image: url(/img/Showcase-product1.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 100%;
-                height: 279px;
-            }
+            // .product__man {
+            //     background-image: url(/img/Showcase-product1.svg);
+            //     background-repeat: no-repeat;
+            //     background-size: contain;
+            //     width: 100%;
+            //     height: 279px;
+            // }
 
-            .product__woman {
-                background-image: url(/img/Showcase-product2.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 100%;
-                height: 279px;
-            }
+            // .product__woman {
+            //     background-image: url(/img/Showcase-product2.svg);
+            //     background-repeat: no-repeat;
+            //     background-size: contain;
+            //     width: 100%;
+            //     height: 279px;
+            // }
 
-            .product__kid {
-                background-image: url(/img/Showcase-product3.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 100%;
-                height: 279px;
-            }
+            // .product__kid {
+            //     background-image: url(/img/Showcase-product3.svg);
+            //     background-repeat: no-repeat;
+            //     background-size: contain;
+            //     width: 100%;
+            //     height: 279px;
+            // }
         }
     }
 
