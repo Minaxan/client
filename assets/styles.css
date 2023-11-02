@@ -29,23 +29,6 @@
   .navbar .offcanvas-body a:hover {
     color: red;
   }
-  .navbar .cart {
-    position: relative;
-  }
-  .navbar .cart .ellip_notification {
-    position: absolute;
-    top: 0;
-    right: 120px;
-  }
-  .navbar .cart .ellip_notification .img__ellip {
-    background-color: red;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-  .navbar .cart .ellip_notification .img__ellip p {
-    padding-left: 2px;
-  }
   .introduce {
     position: relative;
   }
@@ -95,8 +78,14 @@
     bottom: 120px;
     left: 111px;
   }
+  .introduce .introduce__product:hover {
+    cursor: pointer;
+  }
   .showProduct {
     padding-top: 120px;
+  }
+  .showProduct .product__card img:hover {
+    cursor: pointer;
   }
   .showProduct .product__card .showproduct__pants .card_showproductPants {
     position: relative;
@@ -180,6 +169,9 @@
   }
   .newest {
     padding-top: 120px;
+  }
+  .newest img:hover {
+    cursor: pointer;
   }
   .newest .text__newestHeading {
     color: var(--Gray-222, #222);
@@ -323,6 +315,9 @@
   }
   .blog {
     padding-top: 120px;
+  }
+  .blog img:hover {
+    cursor: pointer;
   }
   .blog .content__headingBlog {
     padding-left: 120px;

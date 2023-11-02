@@ -36,29 +36,6 @@
                 color: red;
             }
         }
-
-        .cart {
-            position: relative;
-
-            .ellip_notification {
-                position: absolute;
-                top: 0;
-                right: 120px;
-
-                .img__ellip {
-
-                    background-color: red;
-                    width: 25px;
-                    height: 25px;
-                    border-radius: 50%;
-
-                    p {
-                        padding-left: 2px;
-                    }
-                }
-            }
-        }
-
     }
 
     .introduce {
@@ -116,6 +93,12 @@
             position: absolute;
             bottom: 120px;
             left: 111px;
+
+
+            &:hover {
+                cursor: pointer;
+            }
+
         }
     }
 
@@ -123,6 +106,10 @@
         padding-top: 120px;
 
         .product__card {
+            img:hover {
+                cursor: pointer;
+            }
+
             .showproduct__pants {
 
                 .card_showproductPants {
@@ -230,6 +217,9 @@
     .newest {
         padding-top: 120px;
 
+        img:hover {
+            cursor: pointer;
+        }
 
         .text__newestHeading {
             color: var(--Gray-222, #222);
@@ -286,7 +276,7 @@
         .newest__card3 {
             position: relative;
 
-            
+
 
             .btn_newest {
                 position: absolute;
@@ -407,6 +397,10 @@
 
     .blog {
         padding-top: 120px;
+
+        img:hover {
+            cursor: pointer;
+        }
 
         .content__headingBlog {
 
