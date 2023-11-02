@@ -35,8 +35,10 @@
         background-image: url(./img/showcase-bg.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        height: 818px;
+        width: 100%;
+        height: 888px;
     }
+
 
     .introduce .introduce__content p,
     .introduce .introduce__content h1 {
@@ -58,6 +60,8 @@
     .introduce__content h1 {
         font-size: 60px;
     }
+
+
 
     .product__man {
         background-image: url(./img/Showcase-product\ \(1\).svg);
