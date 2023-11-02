@@ -37,6 +37,28 @@
             }
         }
 
+        .cart {
+            position: relative;
+
+            .ellip_notification {
+                position: absolute;
+                top: 0;
+                right: 120px;
+
+                .img__ellip {
+
+                    background-color: red;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+
+                    p {
+                        padding-left: 2px;
+                    }
+                }
+            }
+        }
+
     }
 
     .introduce {
@@ -226,7 +248,7 @@
         }
 
         .btn__newest {
-            padding: 59px;
+            padding: 59px 0 59px 0;
 
             button {
                 padding: 8px 25px 8px 25px;
@@ -240,6 +262,11 @@
                 line-height: 20px;
                 /* 142.857% */
                 text-transform: uppercase;
+
+                &:hover {
+                    background-color: #e4dcdc;
+                    color: #000;
+                }
             }
         }
 
@@ -258,6 +285,8 @@
 
         .newest__card3 {
             position: relative;
+
+            
 
             .btn_newest {
                 position: absolute;

@@ -29,6 +29,23 @@
   .navbar .offcanvas-body a:hover {
     color: red;
   }
+  .navbar .cart {
+    position: relative;
+  }
+  .navbar .cart .ellip_notification {
+    position: absolute;
+    top: 0;
+    right: 120px;
+  }
+  .navbar .cart .ellip_notification .img__ellip {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .navbar .cart .ellip_notification .img__ellip p {
+    padding-left: 2px;
+  }
   .introduce {
     position: relative;
   }
@@ -179,7 +196,7 @@
     padding-right: 700px;
   }
   .newest .btn__newest {
-    padding: 59px;
+    padding: 59px 0 59px 0;
   }
   .newest .btn__newest button {
     padding: 8px 25px 8px 25px;
@@ -192,6 +209,10 @@
     line-height: 20px;
     /* 142.857% */
     text-transform: uppercase;
+  }
+  .newest .btn__newest button:hover {
+    background-color: #e4dcdc;
+    color: #000;
   }
   .newest .text_newest {
     color: var(--Gray-222, #222);
