@@ -15,11 +15,11 @@
 
     .navbar {
         .navbar-brand {
-            padding-left: 120px;
+            padding-left: 100px;
         }
 
         .cart {
-            padding-right: 120px;
+            padding-right: 100px;
         }
 
         .offcanvas-body {
@@ -29,7 +29,7 @@
             }
 
             .cart button {
-                padding: 0 30px 0 30px;
+                padding: 6px 30px 6px 30px;
             }
 
             a:hover {
@@ -40,13 +40,24 @@
     }
 
     .introduce {
+        position: relative;
+
         .img__introduceBg {
             width: 100%;
             height: 800px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
 
+
         .introduce__content {
-            padding-top: 120px;
+            position: absolute;
+            top: 120px;
+            left: 111px;
 
             p:nth-child(1) {
                 color: $color_textIntroduceWhite ;
@@ -80,30 +91,9 @@
 
         .introduce__product {
             padding-top: 120px;
-
-            // .product__man {
-            //     background-image: url(/img/Showcase-product1.svg);
-            //     background-repeat: no-repeat;
-            //     background-size: contain;
-            //     width: 100%;
-            //     height: 279px;
-            // }
-
-            // .product__woman {
-            //     background-image: url(/img/Showcase-product2.svg);
-            //     background-repeat: no-repeat;
-            //     background-size: contain;
-            //     width: 100%;
-            //     height: 279px;
-            // }
-
-            // .product__kid {
-            //     background-image: url(/img/Showcase-product3.svg);
-            //     background-repeat: no-repeat;
-            //     background-size: contain;
-            //     width: 100%;
-            //     height: 279px;
-            // }
+            position: absolute;
+            bottom: 120px;
+            left: 111px;
         }
     }
 
@@ -140,6 +130,8 @@
             }
 
             .showproduct__jeans {
+                padding-top: 20px;
+
                 .card__showproductJeans {
                     position: relative;
 
@@ -165,6 +157,7 @@
             }
 
             .showproduct__Tshirt {
+                padding-top: 20px;
                 position: relative;
 
                 .text_showproductShirt {
@@ -214,6 +207,7 @@
 
     .newest {
         padding-top: 120px;
+
 
         .text__newestHeading {
             color: var(--Gray-222, #222);
@@ -273,7 +267,10 @@
             }
         }
 
-        .newest__card4 .text__newest p:first-child {
+        .text__newest,
+        .text__newest,
+        .text__newest,
+        .text__newest p:first-child {
             padding-top: 21px;
             color: var(--Gray-222, #222);
 
@@ -287,7 +284,10 @@
             text-transform: capitalize;
         }
 
-        .newest__card4 .text__newest p:last-child {
+        .text__newest,
+        .text__newest,
+        .text__newest,
+        .text__newest p:last-child {
             color: var(--Gray-222, #222);
 
             /* Normal text */
@@ -341,15 +341,37 @@
 
     .collection {
         padding-top: 120px;
+        position: relative;
 
-        .img__collectionBg {
-            width: 100%;
-            height: 555px;
+        .collection__content {
+            position: absolute;
+            bottom: 120px;
+            left: 150px;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+            p {
+                color: var(--white, #FFF);
+
+                /* Tag (16px) */
+                font-family: Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                /* 150% */
+                text-transform: uppercase;
+            }
+
+            h2 {
+                color: var(--white, #FFF);
+
+                /* Heading1 */
+                font-family: Lato;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 72px;
+                /* 120% */
+                text-transform: uppercase;
             }
         }
     }
@@ -359,7 +381,7 @@
 
         .content__headingBlog {
 
-            padding-left: 100px;
+            padding-left: 120px;
 
             p {
                 color: #000;

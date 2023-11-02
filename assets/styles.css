@@ -7,10 +7,10 @@
 
 @media only screen and (min-width: 990px) {
   .navbar .navbar-brand {
-    padding-left: 120px;
+    padding-left: 100px;
   }
   .navbar .cart {
-    padding-right: 120px;
+    padding-right: 100px;
   }
   .navbar .offcanvas-body a {
     color: var(--Gray-222, #222);
@@ -24,17 +24,27 @@
     text-transform: uppercase;
   }
   .navbar .offcanvas-body .cart button {
-    padding: 0 30px 0 30px;
+    padding: 6px 30px 6px 30px;
   }
   .navbar .offcanvas-body a:hover {
     color: red;
+  }
+  .introduce {
+    position: relative;
   }
   .introduce .img__introduceBg {
     width: 100%;
     height: 800px;
   }
+  .introduce .img__introduceBg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .introduce .introduce__content {
-    padding-top: 120px;
+    position: absolute;
+    top: 120px;
+    left: 111px;
   }
   .introduce .introduce__content p:nth-child(1) {
     color: #FFF;
@@ -64,6 +74,9 @@
   }
   .introduce .introduce__product {
     padding-top: 120px;
+    position: absolute;
+    bottom: 120px;
+    left: 111px;
   }
   .showProduct {
     padding-top: 120px;
@@ -87,6 +100,9 @@
     /* 116.667% */
     text-transform: uppercase;
   }
+  .showProduct .product__card .showproduct__jeans {
+    padding-top: 20px;
+  }
   .showProduct .product__card .showproduct__jeans .card__showproductJeans {
     position: relative;
   }
@@ -107,6 +123,7 @@
     text-transform: uppercase;
   }
   .showProduct .product__card .showproduct__Tshirt {
+    padding-top: 20px;
     position: relative;
   }
   .showProduct .product__card .showproduct__Tshirt .text_showproductShirt {
@@ -196,7 +213,10 @@
     left: 80px;
     z-index: 2;
   }
-  .newest .newest__card4 .text__newest p:first-child {
+  .newest .text__newest,
+  .newest .text__newest,
+  .newest .text__newest,
+  .newest .text__newest p:first-child {
     padding-top: 21px;
     color: var(--Gray-222, #222);
     /* Title */
@@ -208,7 +228,10 @@
     /* 150% */
     text-transform: capitalize;
   }
-  .newest .newest__card4 .text__newest p:last-child {
+  .newest .text__newest,
+  .newest .text__newest,
+  .newest .text__newest,
+  .newest .text__newest p:last-child {
     color: var(--Gray-222, #222);
     /* Normal text */
     font-family: Lato;
@@ -248,21 +271,40 @@
   }
   .collection {
     padding-top: 120px;
+    position: relative;
   }
-  .collection .img__collectionBg {
-    width: 100%;
-    height: 555px;
+  .collection .collection__content {
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
   }
-  .collection .img__collectionBg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .collection .collection__content p {
+    color: var(--white, #FFF);
+    /* Tag (16px) */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    text-transform: uppercase;
+  }
+  .collection .collection__content h2 {
+    color: var(--white, #FFF);
+    /* Heading1 */
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    /* 120% */
+    text-transform: uppercase;
   }
   .blog {
     padding-top: 120px;
   }
   .blog .content__headingBlog {
-    padding-left: 100px;
+    padding-left: 120px;
   }
   .blog .content__headingBlog p {
     color: #000;
